@@ -1,0 +1,16 @@
+{
+    "name": "AI Resume Builder",
+    "short_name": "AI Resume",
+    "description": "Transform your resume with AI for ATS compatibility and get hired faster.",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#4A90E2",
+    "icons": [
+      {
+        "src": "/favicon.ico",
+        "sizes": "64x64",
+        "type": "image/x-icon"
+      }
+    ]
+  }

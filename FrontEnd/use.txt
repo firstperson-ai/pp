@@ -1,0 +1,8 @@
+http://localhost:3000 (Homepage, app/page.jsx)
+http://localhost:3000/login (Login, app/login/page.jsx)
+http://localhost:3000/sign-up (Sign-up, app/sign-up/page.jsx)
+http://localhost:3000/pricing (Pricing, app/pricing/page.jsx)
+http://localhost:3000/dashboard (Dashboard Home, app/dashboard/page.jsx or layout)
+http://localhost:3000/dashboard/resume-builder (Resume Builder, app/dashboard/resume-builder/page.jsx)
+http://localhost:3000/dashboard/profile (Profile, app/dashboard/profile/page.jsx)
+http://localhost:3000/dashboard/resume-history (Resume History, app/dashboard/resume-history/page.jsx)
