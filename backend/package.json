@@ -1,0 +1,30 @@
+{
+  "name": "ai-resume-builder-backend",
+  "version": "1.0.0",
+  "description": "ATS Resume Optimization Backend",
+  "main": "server.js",
+  "scripts": {
+    "start": "NODE_ENV=production node server.js",
+    "dev": "NODE_ENV=development PORT=3001 node server.js || PORT=3002 node server.js",
+    "test": "echo 'No tests defined' && exit 0"
+  },
+  "dependencies": {
+    "concurrently": "^8.2.2",
+    "express": "^4.18.2",
+    "python-shell": "^5.0.0",
+    "dotenv": "^16.4.7",
+    "express-rate-limit": "^6.7.0",
+    "cors": "^2.8.5",
+    "helmet": "^7.1.0",
+    "morgan": "^1.10.0",
+    "redis": "^4.6.7",
+    "ws": "^8.15.1",
+    "prom-client": "^14.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  },
+  "engines": {
+    "node": "18.20.7"
+  }
+}
